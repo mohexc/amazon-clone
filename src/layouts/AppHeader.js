@@ -1,5 +1,6 @@
 import React from 'react'
 import './AppHeader.less'
+import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BsSearch } from "react-icons/bs";
 
 
@@ -23,6 +24,10 @@ const AppHeader = () => {
                 <div className="app-header-option">
                     <span className="app-header-optionLineOne">Your</span>
                     <spab className="app-header-optionLineTwo">Prime</spab>
+                </div>
+                <div className="app-header-optionBasket">
+                    <AiOutlineShoppingCart style={{ fontSize: "2rem" }} />
+                    <span className="app-header-optionLineTwo app-header-basketCount">0</span>
                 </div>
 
             </div>
